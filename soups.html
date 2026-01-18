@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soups | Foodie Restaurant</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body { 
+      background-color: #fff8f0; 
+      font-family: 'Poppins', sans-serif; 
+    }
+    .menu-header { 
+      background: #d0b200; 
+      color: white; 
+      padding: 20px; 
+      text-align: center; 
+    }
+    .card img { 
+      height: 200px; 
+      object-fit: cover; 
+    }
+    .card { 
+      border-radius: 10px; 
+      overflow: hidden; 
+      transition: 0.3s; 
+    }
+    .card:hover { 
+      transform: scale(1.05); 
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2); 
+    }
+    .price { 
+      color: #e63946; 
+      font-weight: bold; 
+      font-size: 18px; 
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="https://res.cloudinary.com/dykpzjtxe/image/upload/c_fill,h_50,w_50/v1731355464/logo_dm4at0.png" alt="Logo">
+      </a>
+      <div class="navbar-nav ml-auto">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link active" href="soups.html">Soups</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="menu-header">
+    <h1>🥣 Soups</h1>
+    <p>Warm and comforting soups for every taste!</p>
+  </div>
+
+  <!-- Menu Items -->
+  <div class="container py-4">
+    <div class="row">
+
+      <!-- Tomato Soup -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="https://res.cloudinary.com/dykpzjtxe/image/upload/v1768671963/Tomato-Soup-3-1200x1800_vbwnwb.jpg" class="card-img-top" alt="Tomato Soup">
+          <div class="card-body text-center">
+            <h5 class="card-title">Tomato Soup</h5>
+            <p class="card-text">Classic creamy tomato soup with herbs.</p>
+            <p class="price">₹120</p>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Chicken Soup -->
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card shadow">
+          <img src="https://res.cloudinary.com/dykpzjtxe/image/upload/v1768671990/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2017__12__20171115-chicken-soup-vicky-wasik-11-80db1a04d84a43a089e0559efdddd517_kc1y6r.jpg" class="card-img-top" alt="Chicken Soup">
+          <div class="card-body text-center">
+            <h5 class="card-title">Chicken Soup</h5>
+            <p class="card-text">Comforting soup made with chicken and spices.</p>
+            <p class="price">₹160</p>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
