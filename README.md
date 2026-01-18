@@ -1,5 +1,5 @@
 Live Website Link  
-https://bhavani-kasimahanthi.github.io/foodie-restaurant/
+https://bhavani-kasimahanthi.github.io/foodie-website/
 
 Foodie Restaurant Website
 
